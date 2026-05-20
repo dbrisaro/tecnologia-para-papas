@@ -1,4 +1,4 @@
-# Clase 5 — Inteligencia Artificial (IA)
+# Clase 5: Inteligencia Artificial (IA)
 
 ⏱️ **Duración:** 1 hora
 📱💻 **Dispositivo:** computadora (más cómoda) o celular
@@ -84,35 +84,35 @@ La IA responde **mejor** si ustedes le dan más contexto. Comparen:
 Cuanto **más le cuentan**, mejor responde.
 
 ```{tip}
-**Truco:** háblenle como le hablarían a un nieto que sabe mucho. Sin formalismos. *"Hola, mirá, tengo que escribir una carta a mi médico y no sé cómo arrancar. Es para pedirle un certificado. ¿Me ayudás?"*
+**Truco:** háblenle sin formalismos, como si le explicaran algo a una persona conocida. *"Hola, mirá, tengo que escribir una carta a mi médico y no sé cómo arrancar. Es para pedirle un certificado. ¿Me ayudás?"*
 ```
 
 ### 4. Ejemplos prácticos que pueden probar HOY
 
 Estos son ejemplos pensados para ustedes. Cópienlos tal cual o cambien lo que quieran:
 
-**Ejemplo 1 — Receta con lo que tienen en la heladera:**
+**Ejemplo 1. Receta con lo que tienen en la heladera:**
 > *"Tengo en la heladera: pollo, una cebolla, dos tomates, un morrón y arroz. ¿Qué puedo cocinar para dos personas? Algo simple, no tengo horno."*
 
-**Ejemplo 2 — Ayuda para escribir un mensaje difícil:**
+**Ejemplo 2. Ayuda para escribir un mensaje difícil:**
 > *"Necesito escribirle un mensaje a mi hija para pedirle disculpas porque discutimos. ¿Me ayudás a armar algo cariñoso y honesto?"*
 
-**Ejemplo 3 — Explicar algo médico (con cuidado):**
+**Ejemplo 3. Explicar algo médico (con cuidado):**
 > *"Mi médico me dijo que tengo el colesterol en 230. ¿Qué significa eso y qué cosas se recomiendan comer y no comer? (No te estoy pidiendo que me digas qué hacer, eso lo voy a consultar con el médico, solo quiero entender)."*
 
-**Ejemplo 4 — Explicar una palabra o concepto:**
-> *"Mi nieto está hablando de 'criptomonedas'. ¿Me podés explicar qué son, como si no supiera nada del tema?"*
+**Ejemplo 4. Explicar una palabra o concepto:**
+> *"Escuché hablar de 'criptomonedas' y no entiendo bien qué son. ¿Me podés explicar como si no supiera nada del tema?"*
 
-**Ejemplo 5 — Resumir algo largo:**
+**Ejemplo 5. Resumir algo largo:**
 > *"Te paso el texto de un mail muy largo que me llegó. ¿Me lo podés resumir en 3 líneas para saber qué me están pidiendo? [pegan el texto del mail]"*
 
-**Ejemplo 6 — Ideas para un regalo:**
+**Ejemplo 6. Ideas para un regalo:**
 > *"Mi nieta cumple 8 años, le gusta dibujar y los animales. Tengo $20.000 para gastar. ¿Qué ideas de regalo me das?"*
 
-**Ejemplo 7 — Ayuda con la tecnología:**
+**Ejemplo 7. Ayuda con la tecnología:**
 > *"Tengo un celular Samsung Galaxy A20. ¿Cómo hago para silenciar las notificaciones a la noche?"*
 
-**Ejemplo 8 — Conversación sobre algo que les interese:**
+**Ejemplo 8. Conversación sobre algo que les interese:**
 > *"Me gusta mucho la historia argentina. ¿Me podés contar algo curioso sobre Buenos Aires en 1900 que poca gente sepa?"*
 
 ### 5. Cómo seguir una conversación
@@ -222,7 +222,7 @@ Lo más importante que se llevan no son las apps. Es **la confianza** para proba
 
 1. **Practiquen poco pero seguido.** Mejor 10 minutos por día que 2 horas un sábado.
 2. **Anoten** lo que aprenden en un cuaderno. Vuelvan a leer esas notas cuando se trabe algo.
-3. **Pregunten sin vergüenza.** A mí, a un nieto, a la IA. No hay preguntas tontas.
+3. **Pregunten sin vergüenza.** A mí, a la IA, a quien sea. No hay preguntas tontas.
 4. **Recuerden la regla de oro:** si algo en la pantalla les pide plata, contraseñas o códigos, **no toquen nada**. Pregúntenme primero.
 5. **Diviértanse.** La tecnología es para hacerles la vida más fácil, no más complicada. Si una herramienta los estresa, déjenla y vuelvan otro día.
 

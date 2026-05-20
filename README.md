@@ -1,6 +1,6 @@
 # Curso de Tecnología para papás
 
-Curso simple de tecnología en 5 clases de una hora, pensado para personas mayores que recién arrancan: WhatsApp, Google Meet, Google Calendar, Google Docs/Sheets e Inteligencia Artificial.
+Curso simple de tecnología en 5 clases de una hora: WhatsApp, Google Meet, Google Calendar, Google Docs/Sheets e Inteligencia Artificial.
 
 🌐 **Sitio online:** https://dbrisaro.github.io/tecnologia-para-papas
 📄 **PDF:** [curso-tecnologia.pdf](curso-tecnologia.pdf)

@@ -1,4 +1,4 @@
-# Clase 4 — Google Docs y Sheets
+# Clase 4: Google Docs y Sheets
 
 ⏱️ **Duración:** 1 hora
 💻📱 **Dispositivo:** computadora (principal) y celular (para ver)
@@ -12,7 +12,7 @@ Esta clase tiene **dos partes** porque son dos herramientas hermanas:
 
 Las dos viven en internet, así que:
 - **Lo que escriben se guarda solo** (no hay que apretar "guardar" cada dos minutos).
-- **Lo pueden ver desde cualquier lado**: la compu, el celular, la compu de un nieto.
+- **Lo pueden ver desde cualquier lado**: la compu, el celular, cualquier otra computadora.
 - **No se pierde** aunque se rompa la computadora.
 - **Lo pueden compartir** con la familia para que todos vean lo mismo.
 
@@ -32,7 +32,7 @@ Las dos viven en internet, así que:
 - **Inventario** de algo (libros que prestan, herramientas).
 
 ```{note}
-**Sean honestos consigo mismos:** Sheets es la herramienta más "técnica" del curso. Si no le ven uso concreto, no se preocupen — con saber **abrir un documento que les comparten y leerlo** ya alcanza para el día a día. Concéntrense en Docs.
+Sheets es la herramienta más "técnica" del curso. Si no le ven uso concreto, con saber **abrir una planilla que les compartan y leerla** ya alcanza para el día a día. Concéntrense en Docs.
 ```
 
 ## Antes de empezar
@@ -43,7 +43,7 @@ Las dos viven en internet, así que:
   - **docs.google.com** para Docs.
   - **sheets.google.com** para Sheets.
 
-## Parte 1 — Google Docs
+## Parte 1: Google Docs
 
 ### 1. Crear un documento nuevo
 
@@ -115,7 +115,7 @@ Pueden cerrar la pestaña sin miedo y al volver, todo está como lo dejaron.
 
 Por ejemplo, quieren mandar la carta del consorcio a un vecino para que la lea.
 
-**Opción A — Mandarlo por mail (más fácil):**
+**Opción A. Mandarlo por mail (más fácil):**
 
 1. Arriba a la derecha tocan **Compartir** (botón azul).
 2. Escriben el mail del vecino.
@@ -125,7 +125,7 @@ Por ejemplo, quieren mandar la carta del consorcio a un vecino para que la lea.
    - **Editar**: puede cambiar el documento (cuidado con esto, solo a personas de confianza).
 4. Tocan **Enviar**.
 
-**Opción B — Mandarlo por WhatsApp:**
+**Opción B. Mandarlo por WhatsApp:**
 
 1. Tocan **Compartir**.
 2. Tocan **Copiar enlace** abajo.
@@ -138,7 +138,7 @@ Por ejemplo, quieren mandar la carta del consorcio a un vecino para que la lea.
 3. Se abre la ventana de impresión.
 4. Eligen la impresora y tocan **Imprimir**.
 
-## Parte 2 — Google Sheets (versión muy básica)
+## Parte 2: Google Sheets (versión muy básica)
 
 Vamos a hacer **una sola cosa práctica**: una **lista de gastos del mes**.
 
@@ -216,9 +216,9 @@ Igual que en Docs:
 
 Elijan **una** de estas tareas (la que les parezca más útil):
 
-- [ ] **Opción Docs — Lista de remedios:** Hacer un documento llamado "Mis remedios" con: nombre del remedio, dosis (cuántos por día), horario y para qué es. Imprimirlo para tenerlo a mano y compartirlo conmigo.
-- [ ] **Opción Docs — Carta:** Escribir una carta a alguien (un nieto, un amigo, lo que sea). No la tienen que mandar, es para practicar.
-- [ ] **Opción Sheets — Gastos de la semana:** Anotar todos los gastos de los próximos 7 días en una planilla y sumarlos.
+- [ ] **Opción Docs. Lista de remedios:** Hacer un documento llamado "Mis remedios" con: nombre del remedio, dosis (cuántos por día), horario y para qué es. Imprimirlo para tenerlo a mano y compartirlo conmigo.
+- [ ] **Opción Docs. Carta:** Escribir una carta a alguien (un familiar, un amigo, lo que sea). No la tienen que mandar, es para practicar.
+- [ ] **Opción Sheets. Gastos de la semana:** Anotar todos los gastos de los próximos 7 días en una planilla y sumarlos.
 - [ ] **Opción mixta:** Hacer una lista de los teléfonos importantes (médico, farmacia, familia, emergencias) en un Docs y compartírselo con sus hijos.
 
 ```{important}

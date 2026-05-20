@@ -1,4 +1,4 @@
-# Clase 2 — Google Meet
+# Clase 2: Google Meet
 
 ⏱️ **Duración:** 1 hora
 📱💻 **Dispositivo:** celular y computadora
@@ -19,7 +19,7 @@
 - **Turno médico online**: muchos médicos ahora atienden por Meet. Les mandan un link y a la hora del turno entran.
 - **Reunión del consorcio del edificio**.
 - **Charla con alguien que no tiene WhatsApp** (por ejemplo, alguien de afuera del país que usa otra app).
-- **Hablar con un nieto que está estudiando** y necesita la pantalla grande de la computadora.
+- **Hablar con alguien que está lejos** desde la pantalla grande de la computadora.
 - **Trámites**: muchas oficinas atienden por videollamada ahora.
 
 ### Ejemplo de la vida real
@@ -40,7 +40,7 @@ Necesitan:
 
 ## Paso a paso
 
-### Parte A — Entrar a una reunión cuando les mandan un link (lo más común)
+### Parte A: Entrar a una reunión cuando les mandan un link (lo más común)
 
 Esta es la situación más frecuente: alguien les manda un link y ustedes tienen que entrar.
 
@@ -59,7 +59,7 @@ Esta es la situación más frecuente: alguien les manda un link y ustedes tienen
 3. **Tocan el link azul**.
 4. Sigan al **paso 1B**.
 
-#### 1B — Una vez que tocaron el link:
+#### 1B: Una vez que tocaron el link:
 
 1. Pueden aparecer dos opciones:
    - **Unirse desde la app** (si están en el celular).
@@ -69,8 +69,8 @@ Esta es la situación más frecuente: alguien les manda un link y ustedes tienen
 2. Se ve su cara en la pantalla (eso es la **vista previa**, todavía nadie los ve).
 
 3. **Antes de entrar**, fíjense en dos botones abajo:
-   - 🎤 **Micrófono** — si está tachado, no los van a escuchar. Tóquenlo para activarlo.
-   - 📷 **Cámara** — si está tachado, no los van a ver. Tóquenlo para activarla.
+   - 🎤 **Micrófono**: si está tachado, no los van a escuchar. Tóquenlo para activarlo.
+   - 📷 **Cámara**: si está tachado, no los van a ver. Tóquenlo para activarla.
 
 4. Tocan **Unirse** o **Pedir unirse**.
 
@@ -82,7 +82,7 @@ Esta es la situación más frecuente: alguien les manda un link y ustedes tienen
 **Lleguen 2 minutos antes** del horario. Así, si hay algún problema (no funciona el micrófono, el link no abre), tienen tiempo de resolverlo sin llegar tarde.
 ```
 
-### Parte B — Crear una reunión y mandar el link
+### Parte B: Crear una reunión y mandar el link
 
 A veces ustedes son los que organizan. Por ejemplo, quieren juntar a la familia que vive lejos para charlar todos juntos.
 
@@ -105,7 +105,7 @@ A veces ustedes son los que organizan. Por ejemplo, quieren juntar a la familia 
 3. Eligen **Obtener un enlace para compartir** (si quieren mandar el link antes) o **Iniciar una reunión al instante** (si quieren empezar ya).
 4. Comparten el link por WhatsApp.
 
-### Parte C — Durante la reunión
+### Parte C: Durante la reunión
 
 Una vez adentro, los botones que más van a usar:
 
@@ -121,7 +121,7 @@ Una vez adentro, los botones que más van a usar:
 El botón **rojo de colgar** termina la videollamada. Si lo apretan sin querer, vuelvan a entrar al mismo link.
 ```
 
-### Parte D — Cosas útiles que no son obvias
+### Parte D: Cosas útiles que no son obvias
 
 **1. Verse la cara antes de entrar**
 
@@ -155,7 +155,7 @@ Si están en el celular y quieren mostrar algo que está enfrente (no su cara), 
 
 - [ ] **Día 1:** Yo les mando un link de Meet. Ustedes lo abren y entramos a una reunión juntas.
 - [ ] **Día 2:** Crean una reunión nueva ustedes mismos y me mandan el link. Yo me uno.
-- [ ] **Día 3:** Invitan a alguien más (un nieto, un sobrino) a una reunión de Meet, aunque sea por 5 minutos.
+- [ ] **Día 3:** Invitan a otra persona a una reunión de Meet, aunque sea por 5 minutos.
 - [ ] **Día 4:** Practiquen entrar a una reunión **desde el celular** y desde **la computadora**, para que les salga natural en los dos.
 
 ```{important}
@@ -171,7 +171,7 @@ Si están en el celular y quieren mostrar algo que está enfrente (no su cara), 
 : No es un error. La persona que organizó la reunión los tiene que aceptar. Esperen. Si pasan más de 2 minutos, mándenle un mensaje por WhatsApp avisando que están esperando.
 
 **"No me escuchan."**
-: Fíjense que el ícono de **micrófono no esté tachado**. Si está tachado, tóquenlo. También puede ser que el celular o la compu no tengan permiso para usar el micrófono — en ese caso aparece un cartel arriba que dice "Permitir micrófono". Toquen **Permitir**.
+: Fíjense que el ícono de **micrófono no esté tachado**. Si está tachado, tóquenlo. También puede ser que el celular o la compu no tengan permiso para usar el micrófono: en ese caso aparece un cartel arriba que dice "Permitir micrófono". Toquen **Permitir**.
 
 **"No me ven."**
 : Mismo problema con la **cámara**. Tóquenla para activarla. Si dice "Permitir cámara", toquen **Permitir**.

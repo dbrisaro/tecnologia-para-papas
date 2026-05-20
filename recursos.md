@@ -4,7 +4,7 @@ Esta página es para tener todo lo importante **en un solo lugar**. Pueden impri
 
 ## La regla de oro
 
-> 🛑 **Si en la pantalla aparece algo que les pide plata, contraseñas, códigos o datos del banco — NO TOQUEN NADA.**
+> 🛑 **Si en la pantalla aparece algo que les pide plata, contraseñas, códigos o datos del banco: NO TOQUEN NADA.**
 >
 > Busquen una **X** o el botón **Cancelar** para salir. Después me preguntan.
 
@@ -69,13 +69,13 @@ El más útil de todos: **Ctrl + Z** (o Cmd + Z). Si hacen algo sin querer, lo d
 
 ### Google Docs / Sheets
 - ✍️ **Crear**: docs.google.com (o sheets.google.com) → +
-- 💾 **No hay que guardar** — se guarda solo.
+- 💾 **No hay que guardar**: se guarda solo.
 - 🔗 **Compartir**: botón Compartir arriba a la derecha.
 - ↩️ Si borraron algo: **Ctrl + Z** (o Cmd + Z).
 
 ### Inteligencia Artificial (ChatGPT)
 - 🤖 **Página**: chatgpt.com o app oficial de ChatGPT.
-- 💬 **Cómo hablarle**: como a un nieto que sabe mucho. Más contexto = mejor respuesta.
+- 💬 **Cómo hablarle**: sin formalismos, contándole bien el contexto. Más contexto = mejor respuesta.
 - ⚠️ **A veces miente**: no confiar ciegamente en temas importantes (salud, plata, trámites).
 - 🔒 **Nunca darle**: contraseñas, tarjetas, datos sensibles.
 
@@ -106,7 +106,7 @@ Banco Galicia:
   contraseña: ___________
 ```
 
-Es la opción más simple y, para personas de su edad, **mucho más segura** que cualquier app de contraseñas que sea complicada de usar.
+Es la opción más simple y **mucho más segura** que cualquier app de contraseñas complicada.
 
 **Regla extra:** una contraseña fuerte tiene al menos **8 caracteres** y mezcla **letras, números y un signo**. Por ejemplo: `Mariana2026!`.
 
@@ -159,11 +159,11 @@ Anoten acá los teléfonos que les sirvan tener a mano:
 
 Cuando dominen estas 5 cosas, otras herramientas útiles para explorar más adelante:
 
-- **Google Maps** — cómo llegar a un lugar, ver el tiempo de viaje.
-- **Google Fotos** — guardar todas las fotos del celular en internet, así no se pierden.
-- **YouTube** — videos de cocina, historia, música, lo que quieran aprender.
-- **Mercado Pago / Banco online** — pagar y transferir desde el celular (con mucho cuidado).
-- **Spotify** — escuchar música y radios.
+- **Google Maps**: cómo llegar a un lugar, ver el tiempo de viaje.
+- **Google Fotos**: guardar todas las fotos del celular en internet, así no se pierden.
+- **YouTube**: videos de cocina, historia, música, lo que quieran aprender.
+- **Mercado Pago / Banco online**: pagar y transferir desde el celular (con mucho cuidado).
+- **Spotify**: escuchar música y radios.
 
 Pero **una cosa a la vez**. Primero dominen lo del curso. Lo demás llega cuando llegue.
 

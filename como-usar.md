@@ -51,7 +51,7 @@ Cuando algo sale mal y me quieren preguntar, mándenme **tres cosas**:
 
 1. **Qué estaban haciendo** ("Quería mandar una foto a tu tía…").
 2. **Qué pasó** ("…y me apareció un cartel que no entiendo").
-3. **Una foto de la pantalla** (captura de pantalla — en la próxima sección les enseño cómo).
+3. **Una foto de la pantalla** (captura de pantalla: en la próxima sección les enseño cómo).
 
 Con esas tres cosas yo puedo resolverlo desde donde esté.
 

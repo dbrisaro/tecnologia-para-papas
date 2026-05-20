@@ -1,4 +1,4 @@
-# Clase 3 — Google Calendar
+# Clase 3: Google Calendar
 
 ⏱️ **Duración:** 1 hora
 📱💻 **Dispositivo:** celular y computadora
@@ -41,7 +41,7 @@ Cuando abren Google Calendar, ven el **mes actual** o **la semana actual**, con 
 **Cosas básicas para ubicarse:**
 - El día de **hoy** está marcado con un círculo o un color diferente.
 - Si toquetean para los lados o para arriba, se mueven entre semanas/meses.
-- Arriba a la izquierda hay un botón con tres rayitas ☰ o el nombre del mes — ahí pueden **cambiar la vista**: Día, Semana, Mes.
+- Arriba a la izquierda hay un botón con tres rayitas ☰ o el nombre del mes: ahí pueden **cambiar la vista**: Día, Semana, Mes.
 
 ```{tip}
 Para empezar, les recomiendo la vista **Semana** o **Mes**. La vista Día sirve cuando tienen mucho lleno y quieren ver con detalle.
@@ -169,7 +169,7 @@ Si no les llegan las notificaciones, casi siempre es esto: las notificaciones es
 - [ ] **Compartirme un evento** (cualquier evento) para que practiquen el botón de invitar.
 
 ```{important}
-**El truco para que les sirva:** cada vez que les digan un turno, una fecha, una hora — **anótenla en Calendar enseguida**, antes de cortar el teléfono. Si la dejan para después, se olvidan.
+**El truco para que les sirva:** cada vez que les digan un turno, una fecha, una hora: **anótenla en Calendar enseguida**, antes de cortar el teléfono. Si la dejan para después, se olvidan.
 ```
 
 ## Si algo sale mal

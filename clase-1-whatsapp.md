@@ -1,24 +1,18 @@
-# Clase 1 — WhatsApp
+# Clase 1: WhatsApp
 
 ⏱️ **Duración:** 1 hora
 📱 **Dispositivo:** celular (principal) y computadora (opcional)
 
 ## Para qué les sirve
 
-WhatsApp es la app que **conecta con casi toda la familia y amigos** sin gastar dinero en llamadas. Con WhatsApp pueden:
+WhatsApp ya lo usan para chatear, pero tiene un montón de funciones que muchas veces quedan sin descubrir. En esta clase nos vamos a meter en lo que probablemente todavía no usan:
 
-- Mandar mensajes de texto a un nieto.
-- Mandar **notas de voz** cuando da pereza escribir.
-- Hacer **videollamadas** para ver a alguien que está lejos.
-- Mandar fotos del cumpleaños, del jardín, de una receta.
-- Tener un **grupo familiar** para compartir noticias.
-- Mandar la **ubicación** cuando alguien los pasa a buscar.
-
-### Ejemplo de la vida real
-
-> *"Mamá, ¿estás bien? Hace dos días que no sé nada de vos."*
->
-> En vez de llamarla por teléfono (que cuesta plata y a veces ella no escucha), pueden mandarle una **nota de voz**: aprietan un botón, le hablan como si fuera un mensaje del contestador, y listo. Ella la escucha cuando puede.
+- **Notas de voz** cuando da fiaca escribir.
+- **Videollamadas** para ver a la persona, no solo escucharla.
+- Mandar y guardar **fotos** sin que se mezclen con todo lo demás del celular.
+- Armar un **grupo** para coordinar con varias personas a la vez.
+- Compartir la **ubicación** cuando alguien los pasa a buscar o quieren mostrar dónde están.
+- Cómo **no caer en estafas** por WhatsApp.
 
 ## Antes de empezar
 
@@ -34,31 +28,17 @@ Si no saben si WhatsApp está instalado, busquen en la pantalla del celular un c
 
 ## Paso a paso
 
-### 1. Abrir WhatsApp y mirar las pantallas
+### 1. Las tres pestañas principales
 
-Cuando abren WhatsApp, ven tres partes principales abajo (o arriba, según el celular):
+Cuando abren WhatsApp, hay tres pestañas (arriba o abajo según el celular):
 
-- **Chats** — la lista de todas las conversaciones.
-- **Llamadas** — el historial de llamadas y videollamadas.
-- **Novedades** o **Estados** — fotos y videos que la gente sube por 24 horas. *Por ahora lo ignoramos*.
+- **Chats**: las conversaciones.
+- **Llamadas**: el historial de llamadas y videollamadas.
+- **Novedades** o **Estados**: fotos y videos que la gente sube por 24 horas. Lo dejamos para más adelante.
 
-**Ejercicio mental:** ¿Cuál de esas tres partes usan más?
-- Si mandan mensajes → **Chats**.
-- Si hacen videollamadas → **Llamadas**.
+### 2. Mandar una nota de voz 🎤
 
-### 2. Mandar un mensaje de texto (repaso)
-
-Esto seguramente ya lo saben, pero lo repasamos:
-
-1. Tocan **Chats**.
-2. Tocan el ícono de **lápiz** o de **mensaje nuevo** (arriba a la derecha).
-3. Eligen un contacto de la lista.
-4. Escriben el mensaje abajo.
-5. Tocan la **flechita verde** para enviar.
-
-### 3. Mandar una nota de voz 🎤 (esto es nuevo)
-
-Las notas de voz son **el truco más útil** de WhatsApp para ustedes: no hace falta escribir, hablan y listo.
+Las notas de voz son uno de los recursos más útiles de WhatsApp: no hace falta escribir, hablan y listo.
 
 **Paso a paso:**
 
@@ -74,13 +54,11 @@ Si sueltan el dedo antes de terminar, la nota se manda incompleta. Tip: pueden *
 ```
 
 **Ejemplos de cuándo usar nota de voz:**
-- Cuando es algo largo y da pereza escribir.
+- Cuando es algo largo y da fiaca escribir.
 - Cuando no ven bien las letras chiquitas.
 - Cuando quieren que la otra persona escuche el tono de voz (cariño, urgencia, etc.).
 
-### 4. Hacer una videollamada 📹
-
-Esta es de las cosas más lindas: ver la cara de la otra persona, no solo escucharla.
+### 3. Hacer una videollamada 📹
 
 1. Abren la conversación con la persona a la que quieren ver.
 2. Arriba a la derecha hay dos íconos:
@@ -95,7 +73,7 @@ Si están con poca luz, busquen una ventana o una lámpara. La otra persona los 
 
 **Para colgar:** un botón rojo redondo abajo del centro. Lo tocan y se corta.
 
-### 5. Mandar y guardar fotos 📸
+### 4. Mandar y guardar fotos 📸
 
 **Para mandar una foto que ya tienen en el celular:**
 
@@ -119,7 +97,7 @@ Si están con poca luz, busquen una ventana o una lámpara. La otra persona los 
 3. Eligen **Guardar** o **Descargar**.
 4. La foto queda en la galería del celular.
 
-### 6. Crear un grupo familiar 👨‍👩‍👧‍👦
+### 5. Crear un grupo 👨‍👩‍👧‍👦
 
 Un grupo es una conversación donde están varias personas a la vez. Útil para "Familia", "Vecinos del edificio", etc.
 
@@ -134,7 +112,7 @@ Un grupo es una conversación donde están varias personas a la vez. Útil para 
 En un grupo, todos ven todo. Si quieren mandarle algo solo a una persona, lo hacen en el chat directo con ella, no en el grupo.
 ```
 
-### 7. Compartir la ubicación 📍
+### 6. Compartir la ubicación 📍
 
 Útil si:
 - Se pierden y alguien los quiere ir a buscar.
@@ -143,13 +121,13 @@ En un grupo, todos ven todo. Si quieren mandarle algo solo a una persona, lo hac
 1. Abren la conversación.
 2. Tocan el **clip 📎** o el **+**.
 3. Eligen **Ubicación**.
-3. Tocan **Enviar mi ubicación actual**.
+4. Tocan **Enviar mi ubicación actual**.
 
 La otra persona recibe un mapa con un puntito donde están ustedes.
 
 ## ⚠️ Cuidado con las estafas
 
-Esto es **muy importante**. Hay personas malas que usan WhatsApp para engañar a la gente, especialmente a personas mayores. Las estafas más comunes:
+Esto es **muy importante**. WhatsApp es uno de los canales más usados para estafar. Las más comunes:
 
 **1. "Hola mamá, perdí mi celu, escribime a este número nuevo."**
 
@@ -175,13 +153,12 @@ Es un link falso que les roba la cuenta de WhatsApp o el banco.
 
 ## Ejercicios para hacer en clase
 
-Vamos a practicar juntos, uno por uno:
-
-1. ✅ Mandarle una nota de voz a [persona elegida] diciendo "Estoy aprendiendo WhatsApp, qué orgullo".
-2. ✅ Hacer una videollamada a [otra persona] y saludar 1 minuto.
+1. ✅ Mandar una nota de voz larga (más de 30 segundos) usando el truco del candadito.
+2. ✅ Hacer una videollamada de 1 minuto.
 3. ✅ Sacar una foto del lugar donde estamos y mandarla por el chat.
-4. ✅ Compartir la ubicación actual.
-5. ✅ Crear un grupo de prueba llamado "Curso de tecnología" con [dos contactos].
+4. ✅ Guardar en la galería una foto que les hayan mandado.
+5. ✅ Compartir la ubicación actual.
+6. ✅ Crear un grupo de prueba con dos contactos y ponerle nombre.
 
 ## 📝 Tarea para la semana
 
