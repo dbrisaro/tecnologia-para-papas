@@ -1,4 +1,4 @@
-# Recursos y chuleta general
+# Recursos y machete general
 
 Esta página es para tener todo lo importante **en un solo lugar**. Pueden imprimirla y tenerla al lado de la computadora.
 

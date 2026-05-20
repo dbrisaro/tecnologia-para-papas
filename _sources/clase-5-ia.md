@@ -94,11 +94,11 @@ Estos son ejemplos pensados para ustedes. Cópienlos tal cual o cambien lo que q
 **Ejemplo 1. Receta con lo que tienen en la heladera:**
 > *"Tengo en la heladera: pollo, una cebolla, dos tomates, un morrón y arroz. ¿Qué puedo cocinar para dos personas? Algo simple, no tengo horno."*
 
-**Ejemplo 2. Ayuda para escribir un mensaje difícil:**
-> *"Necesito escribirle un mensaje a mi hija para pedirle disculpas porque discutimos. ¿Me ayudás a armar algo cariñoso y honesto?"*
+**Ejemplo 2. Ayuda para escribir algo formal:**
+> *"Tengo que escribir un mail al banco para reclamar un cobro que no reconozco. ¿Me ayudás a armar algo claro y firme, no muy largo?"*
 
-**Ejemplo 3. Explicar algo médico (con cuidado):**
-> *"Mi médico me dijo que tengo el colesterol en 230. ¿Qué significa eso y qué cosas se recomiendan comer y no comer? (No te estoy pidiendo que me digas qué hacer, eso lo voy a consultar con el médico, solo quiero entender)."*
+**Ejemplo 3. Entender un documento o trámite:**
+> *"Te paso un contrato que me mandaron para firmar. ¿Me lo podés explicar en lenguaje simple, señalando si hay algo raro o que tenga que prestarle atención antes de firmar? [pegan el texto]"*
 
 **Ejemplo 4. Explicar una palabra o concepto:**
 > *"Escuché hablar de 'criptomonedas' y no entiendo bien qué son. ¿Me podés explicar como si no supiera nada del tema?"*
@@ -107,7 +107,7 @@ Estos son ejemplos pensados para ustedes. Cópienlos tal cual o cambien lo que q
 > *"Te paso el texto de un mail muy largo que me llegó. ¿Me lo podés resumir en 3 líneas para saber qué me están pidiendo? [pegan el texto del mail]"*
 
 **Ejemplo 6. Ideas para un regalo:**
-> *"Mi nieta cumple 8 años, le gusta dibujar y los animales. Tengo $20.000 para gastar. ¿Qué ideas de regalo me das?"*
+> *"Tengo que regalarle algo a un amigo que cumple años, le gustan los libros y la jardinería. Tengo $20.000 para gastar. ¿Qué ideas me das?"*
 
 **Ejemplo 7. Ayuda con la tecnología:**
 > *"Tengo un celular Samsung Galaxy A20. ¿Cómo hago para silenciar las notificaciones a la noche?"*
@@ -152,7 +152,7 @@ Esto es **muy importante**.
 
 ❌ **No confíen ciegamente cuando:**
 
-- Les da una **dosis de remedio**. Siempre confirmen con el médico o el farmacéutico.
+- Les da **información médica concreta** (dosis, diagnóstico, qué medicamento tomar). Eso lo decide un profesional, no la IA.
 - Les da **información legal o de trámites**. Las leyes cambian y la IA puede tener datos viejos.
 - Les da **información sobre plata o inversiones**. Pueden perder dinero si le hacen caso a una IA sin confirmar.
 - Les da **noticias actuales**. Muchas IA no saben qué pasó en los últimos meses.
@@ -226,4 +226,4 @@ Lo más importante que se llevan no son las apps. Es **la confianza** para proba
 4. **Recuerden la regla de oro:** si algo en la pantalla les pide plata, contraseñas o códigos, **no toquen nada**. Pregúntenme primero.
 5. **Diviértanse.** La tecnología es para hacerles la vida más fácil, no más complicada. Si una herramienta los estresa, déjenla y vuelvan otro día.
 
-➡️ Vayan a la página de [Recursos](recursos.md) para ver una **chuleta** con todo lo importante en una sola página.
+➡️ Vayan a la página de [Recursos](recursos.md) para ver un **machete** con todo lo importante en una sola página.

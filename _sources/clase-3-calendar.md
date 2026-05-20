@@ -16,11 +16,11 @@ Lo más útil:
 
 ### Ejemplos de la vida real
 
-- *"El cardiólogo el jueves 4 a las 15:30"* → lo anotan una vez y el celular les avisa el día anterior + 1 hora antes.
-- *"Control con el oftalmólogo cada 6 meses"* → lo ponen una vez y se repite solo.
-- *"Cumpleaños de mi nieta Sofía, 12 de marzo"* → lo ponen una vez y se repite todos los años. Nunca más se lo van a olvidar.
-- *"Tomar la pastilla a las 9 y a las 21"* → recordatorio diario.
+- *"Reunión con la contadora el jueves 4 a las 15:30"* → lo anotan una vez y el celular les avisa el día anterior + 1 hora antes.
+- *"Cumpleaños de [persona], 12 de marzo"* → lo ponen una vez y se repite todos los años.
+- *"Almuerzo con amigos todos los miércoles"* → recordatorio semanal.
 - *"Pagar el alquiler el día 5 de cada mes"* → recordatorio mensual.
+- *"Vencimiento del seguro del auto"* → aviso un mes antes para renovarlo a tiempo.
 
 ## Antes de empezar
 
@@ -49,18 +49,18 @@ Para empezar, les recomiendo la vista **Semana** o **Mes**. La vista Día sirve 
 
 ### 2. Crear un evento (lo más importante)
 
-**Ejemplo:** anotar un turno con el doctor el próximo jueves a las 15:30.
+**Ejemplo:** anotar una reunión el próximo jueves a las 15:30.
 
 #### Desde el celular:
 
 1. Tocan el **+** abajo a la derecha.
 2. Eligen **Evento**.
-3. Escriben el **título**: "Turno cardiólogo Dr. Pérez".
+3. Escriben el **título**: "Reunión con la contadora".
 4. Eligen el **día**: jueves de la semana que viene.
 5. Eligen la **hora de inicio**: 15:30.
 6. Eligen la **hora de fin**: 16:30 (más o menos cuánto va a durar).
-7. (Opcional) En **Ubicación** escriben la dirección del consultorio: "Av. Santa Fe 1234".
-8. (Opcional) En **Descripción** anotan: "Llevar carnet de obra social y el último análisis".
+7. (Opcional) En **Ubicación** escriben la dirección: "Av. Santa Fe 1234".
+8. (Opcional) En **Descripción** anotan lo que necesiten recordar: "Llevar los papeles del último trimestre".
 9. **Recordatorio**: por defecto les avisa 10 minutos antes. Pueden agregar más:
    - Tocan **Agregar notificación**.
    - Eligen **1 día antes** y **1 hora antes**, por ejemplo.
@@ -81,7 +81,7 @@ Para empezar, les recomiendo la vista **Semana** o **Mes**. La vista Día sirve 
 
 Esto es **mágico**: pongan algo una sola vez y se repite solo.
 
-**Ejemplo: cumpleaños de la nieta el 12 de marzo (todos los años).**
+**Ejemplo: cumpleaños de un amigo el 12 de marzo (todos los años).**
 
 1. Crean el evento como en el punto 2.
 2. Antes de guardar, buscan la opción **Repetir** o **No se repite**.
@@ -97,13 +97,13 @@ Esto es **mágico**: pongan algo una sola vez y se repite solo.
 
 | Evento | Repetición |
 |---|---|
-| Pastilla de la mañana | Todos los días a las 9:00 |
-| Pastilla de la noche | Todos los días a las 21:00 |
+| Reunión semanal de trabajo | Todos los lunes a las 10:00 |
+| Clase de yoga / pilates / inglés | Todos los martes y jueves a las 18:00 |
 | Cumpleaños | Todos los años en esa fecha |
-| Control médico | Cada 6 meses |
 | Pagar alquiler | Todos los meses el día 5 |
-| Cobrar jubilación | Todos los meses el día X |
+| Vencimiento del resumen de la tarjeta | Todos los meses el día X |
 | Llamar a la hermana | Todos los domingos a las 11:00 |
+| Renovación del seguro del auto | Una vez al año |
 
 ### 4. Editar o borrar un evento
 
@@ -153,7 +153,7 @@ Si no les llegan las notificaciones, casi siempre es esto: las notificaciones es
 
 1. ✅ Crear un evento para mañana llamado "Curso de tecnología práctica".
 2. ✅ Crear un cumpleaños que se repita todos los años.
-3. ✅ Crear un recordatorio diario para "Tomar la pastilla a las 9".
+3. ✅ Crear un recordatorio diario para algo de la rutina (gimnasio, llamada, lo que sea).
 4. ✅ Agregar dos notificaciones a un evento (1 día antes y 1 hora antes).
 5. ✅ Editar el título de un evento.
 6. ✅ Borrar un evento de prueba.
@@ -162,10 +162,10 @@ Si no les llegan las notificaciones, casi siempre es esto: las notificaciones es
 
 ## 📝 Tarea para la semana
 
-- [ ] **Anotar todos los turnos médicos** que tengan en los próximos 3 meses (busquen los papelitos, recetas, lo que tengan a mano).
-- [ ] **Anotar los cumpleaños** importantes de toda la familia con repetición anual.
-- [ ] **Crear 1 recordatorio diario** que les sirva (pastilla, llamar a alguien, regar las plantas).
-- [ ] **Crear 1 recordatorio mensual** (pagar el alquiler, cobrar la jubilación, lo que sea).
+- [ ] **Anotar todos los compromisos fijos** que tengan en los próximos 3 meses (reuniones, viajes, eventos).
+- [ ] **Anotar los cumpleaños** importantes de familia y amigos con repetición anual.
+- [ ] **Crear 1 recordatorio diario** que les sirva (caminata, llamar a alguien, regar las plantas).
+- [ ] **Crear 1 recordatorio mensual** (pagar el alquiler, vencimiento de tarjeta, lo que sea).
 - [ ] **Compartirme un evento** (cualquier evento) para que practiquen el botón de invitar.
 
 ```{important}

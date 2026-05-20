@@ -21,15 +21,15 @@ Las dos viven en internet, así que:
 **Con Docs:**
 - Una **carta** para la administración del edificio.
 - Una **lista de compras** del mes.
-- **Notas** del médico (síntomas, lo que dijo el doctor).
-- Un **listado de remedios** con horarios.
-- La **receta de la abuela** para que no se pierda.
+- Una **lista de cosas a llevar** en un viaje.
+- **Notas** de una charla, curso o reunión.
+- Una **receta** que quieran guardar para no perderla.
 
 **Con Sheets:**
 - Los **gastos del mes** (qué se gastó, en qué).
-- **Lista de cumpleaños** de toda la familia con fechas y edades.
+- **Lista de cumpleaños** con fechas.
 - Control de **pagos** (qué se pagó, qué falta).
-- **Inventario** de algo (libros que prestan, herramientas).
+- **Inventario** de algo (libros, herramientas, lo que sea).
 
 ```{note}
 Sheets es la herramienta más "técnica" del curso. Si no le ven uso concreto, con saber **abrir una planilla que les compartan y leerla** ya alcanza para el día a día. Concéntrense en Docs.
@@ -163,7 +163,7 @@ Vamos a llenar tres columnas: **Fecha, Concepto, Monto**.
 | 1 | Fecha | Concepto | Monto |
 | 2 | 01/05 | Súper | 35000 |
 | 3 | 03/05 | Luz | 12000 |
-| 4 | 05/05 | Remedios | 8000 |
+| 4 | 05/05 | Verdulería | 8000 |
 | 5 | 10/05 | Súper | 28000 |
 
 Para moverse:
@@ -216,7 +216,7 @@ Igual que en Docs:
 
 Elijan **una** de estas tareas (la que les parezca más útil):
 
-- [ ] **Opción Docs. Lista de remedios:** Hacer un documento llamado "Mis remedios" con: nombre del remedio, dosis (cuántos por día), horario y para qué es. Imprimirlo para tenerlo a mano y compartirlo conmigo.
+- [ ] **Opción Docs. Lista de viaje:** Hacer un documento con todo lo que quieran llevarse en un próximo viaje (ropa, papeles, cargadores, lo que sea). Compartirlo conmigo.
 - [ ] **Opción Docs. Carta:** Escribir una carta a alguien (un familiar, un amigo, lo que sea). No la tienen que mandar, es para practicar.
 - [ ] **Opción Sheets. Gastos de la semana:** Anotar todos los gastos de los próximos 7 días en una planilla y sumarlos.
 - [ ] **Opción mixta:** Hacer una lista de los teléfonos importantes (médico, farmacia, familia, emergencias) en un Docs y compartírselo con sus hijos.
