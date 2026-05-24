@@ -1,0 +1,762 @@
+
+<!DOCTYPE html>
+
+
+<html lang="es" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Clase 6: Seguridad digital &#8212; Curso de Tecnología</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=3c74b3bc" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=9c3e77be" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css?v=8cd3d715" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="_static/documentation_options.js?v=c2101671"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=fab101a9"></script>
+    <script>let toggleHintShow = 'Haz clic para mostrar';</script>
+    <script>let toggleHintHide = 'Haz clic para ocultar';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=b8b12719"></script>
+    <script src="_static/translations.js?v=d190bf04"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'clase-6-seguridad';</script>
+    <link rel="index" title="Índice" href="genindex.html" />
+    <link rel="search" title="Búsqueda" href="search.html" />
+    <link rel="next" title="Simulacro: ¿es phishing?" href="simulacro-phishing.html" />
+    <link rel="prev" title="Clase 5: Inteligencia Artificial (IA)" href="clase-5-ia.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="es"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Saltar al contenido principal</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Volver arriba</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Advertencia de versión"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+  
+  
+    <p class="title logo__title">Curso de Tecnología</p>
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Búsqueda" aria-label="Búsqueda" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Búsqueda</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="como-usar.html">Cómo usar este curso</a></li>
+<li class="toctree-l1"><a class="reference internal" href="clase-1-whatsapp.html">Clase 1: WhatsApp</a></li>
+<li class="toctree-l1"><a class="reference internal" href="clase-2-meet.html">Clase 2: Google Meet</a></li>
+<li class="toctree-l1"><a class="reference internal" href="clase-3-calendar.html">Clase 3: Google Calendar</a></li>
+<li class="toctree-l1"><a class="reference internal" href="clase-4-docs-sheets.html">Clase 4: Google Docs y Sheets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="clase-5-ia.html">Clase 5: Inteligencia Artificial (IA)</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Seguridad</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Clase 6: Seguridad digital</a></li>
+<li class="toctree-l1"><a class="reference internal" href="simulacro-phishing.html">Simulacro: ¿es phishing?</a></li>
+</ul>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="recursos.html">Recursos y machete general</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Descarga esta pagina">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/clase-6-seguridad.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Descargar archivo fuente"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Imprimir en PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button pst-navbar-icon"
+  title="Modo de pantalla completa"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Tema" data-bs-title="Tema"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Claro"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Oscuro"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="Sistema"></i>
+</button>
+
+
+<button class="btn btn-sm pst-navbar-icon search-button search-button__button pst-js-only" title="Búsqueda" aria-label="Búsqueda" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+</button>
+<button class="sidebar-toggle secondary-toggle btn btn-sm pst-navbar-icon" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Clase 6: Seguridad digital</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contenido </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#para-que-les-sirve">Para qué les sirve</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#antes-de-empezar">Antes de empezar</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#paso-a-paso">Paso a paso</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#como-leer-una-direccion-de-internet-url">1. Cómo leer una dirección de internet (URL)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#el-candadito-y-la-s-de-https">2. El candadito 🔒 y la «s» de https</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cuando-el-navegador-les-avisa-que-algo-anda-mal">3. Cuando el navegador les avisa que algo anda mal</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#la-regla-de-oro-para-datos-importantes-direccion-a-mano">4. La regla de oro: para datos importantes, dirección a mano</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#quiz-rapido-cual-es-la-url-real">5. Quiz rápido: ¿cuál es la URL real?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#verificacion-en-dos-pasos-2fa-el-cinturon-de-seguridad">6. Verificación en dos pasos (2FA): el cinturón de seguridad</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#activar-2fa-en-whatsapp">6.1 Activar 2FA en WhatsApp</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#activar-2fa-en-gmail">6.2 Activar 2FA en Gmail</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pop-ups-truchos-su-computadora-esta-infectada">7. Pop-ups truchos: «su computadora está infectada»</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#wifi-publico-cuando-importa">8. WiFi público: cuándo importa</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ejercicios-para-hacer-en-clase">Ejercicios para hacer en clase</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tarea-para-la-semana">📝 Tarea para la semana</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#si-algo-sale-mal">Si algo sale mal</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="clase-6-seguridad-digital">
+<h1>Clase 6: Seguridad digital<a class="headerlink" href="#clase-6-seguridad-digital" title="Link to this heading">#</a></h1>
+<p>⏱️ <strong>Duración:</strong> 1 hora
+💻📱 <strong>Dispositivo:</strong> celular y computadora</p>
+<section id="para-que-les-sirve">
+<h2>Para qué les sirve<a class="headerlink" href="#para-que-les-sirve" title="Link to this heading">#</a></h2>
+<p>Hasta acá aprendimos a usar las herramientas. Esta clase es para usarlas con tranquilidad: saber distinguir cuándo algo es real y cuándo es trucho, y poner candados extra para que aunque alguien intente robarles datos, no pueda.</p>
+<p>Es la clase más importante del curso desde el lado de la seguridad. La mayoría de las estafas digitales caen apenas la persona conoce dos o tres trucos básicos.</p>
+</section>
+<section id="antes-de-empezar">
+<h2>Antes de empezar<a class="headerlink" href="#antes-de-empezar" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Celular y computadora.</p></li>
+<li><p>El <strong>cuadernito de contraseñas</strong> que vimos en clase 1 (lo van a actualizar acá).</p></li>
+<li><p>Saber sus contraseñas de Gmail y WhatsApp.</p></li>
+</ul>
+</section>
+<section id="paso-a-paso">
+<h2>Paso a paso<a class="headerlink" href="#paso-a-paso" title="Link to this heading">#</a></h2>
+<section id="como-leer-una-direccion-de-internet-url">
+<h3>1. Cómo leer una dirección de internet (URL)<a class="headerlink" href="#como-leer-una-direccion-de-internet-url" title="Link to this heading">#</a></h3>
+<p>Una <strong>URL</strong> es la dirección de un sitio web. Ejemplos:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">bancogalicia.com.ar</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">google.com</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">anses.gob.ar</span></code></p></li>
+</ul>
+<p>Aprender a leerlas bien es <strong>lo más importante de toda esta clase</strong>, porque las estafas usan URLs que <strong>se parecen</strong> a las reales pero no lo son.</p>
+<p><strong>Truco para leer una URL:</strong></p>
+<p>La parte que importa está justo <strong>antes del primer <code class="docutils literal notranslate"><span class="pre">/</span></code></strong>. Eso es <strong>el dueño real del sitio</strong>.</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>URL completa</p></th>
+<th class="head"><p>Dueño real</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">https://bancogalicia.com.ar/login</span></code></p></td>
+<td><p>bancogalicia.com.ar ✅</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">https://galicia.fake-site.com/login</span></code></p></td>
+<td><p>fake-site.com ❌</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">https://anses.gob.ar/jubilados</span></code></p></td>
+<td><p>anses.gob.ar ✅</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">https://anses-tramites.online/actualizar</span></code></p></td>
+<td><p>anses-tramites.online ❌</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Fíjense en el segundo y cuarto caso: el nombre conocido («galicia», «anses») aparece <strong>al principio para confundir</strong>, pero el dueño real (el último nombre antes del <code class="docutils literal notranslate"><span class="pre">/</span></code>) es otro.</p>
+<p><strong>Otras señales de URLs sospechosas:</strong></p>
+<ul class="simple">
+<li><p>Errores chiquitos: <code class="docutils literal notranslate"><span class="pre">gallicia.com</span></code> (doble L), <code class="docutils literal notranslate"><span class="pre">bancogalícia.com</span></code> (tilde rara), <code class="docutils literal notranslate"><span class="pre">merca-libre.com</span></code> (con guion).</p></li>
+<li><p>Terminaciones raras: <code class="docutils literal notranslate"><span class="pre">.online</span></code>, <code class="docutils literal notranslate"><span class="pre">.xyz</span></code>, <code class="docutils literal notranslate"><span class="pre">.click</span></code>, <code class="docutils literal notranslate"><span class="pre">.info</span></code>. No están prohibidas, pero son menos habituales en sitios oficiales.</p></li>
+<li><p>Subdominios larguísimos: <code class="docutils literal notranslate"><span class="pre">seguridad-banco-galicia-actualizacion.com</span></code>.</p></li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Truco</p>
+<p>Los sitios oficiales del gobierno argentino terminan en <strong><code class="docutils literal notranslate"><span class="pre">.gob.ar</span></code></strong>. Cualquier «anses», «afip» o «ministerio» con otra terminación es falso.</p>
+</div>
+</section>
+<section id="el-candadito-y-la-s-de-https">
+<h3>2. El candadito 🔒 y la «s» de https<a class="headerlink" href="#el-candadito-y-la-s-de-https" title="Link to this heading">#</a></h3>
+<p>Al lado de la dirección, casi siempre arriba a la izquierda, ven un <strong>candadito</strong> 🔒. Y la dirección empieza con <code class="docutils literal notranslate"><span class="pre">https://</span></code> (con <strong>s</strong>) en vez de <code class="docutils literal notranslate"><span class="pre">http://</span></code>.</p>
+<p><strong>Qué significa el candadito:</strong> la conexión está <strong>encriptada</strong>. Lo que mandan al sitio (contraseña, datos personales) no se puede leer si alguien intercepta el tráfico en el camino. Es como hablar en un cuarto cerrado en vez de gritar en el balcón.</p>
+<div class="admonition warning">
+<p class="admonition-title">Advertencia</p>
+<p><strong>El candadito NO garantiza que el sitio sea legítimo.</strong></p>
+<p>Solo garantiza que la conexión es privada. <strong>Un sitio trucho también puede tener candadito.</strong> Lo único que el candadito asegura es que nadie de afuera ve lo que mandan, pero los datos llegan igual al estafador si el sitio es falso.</p>
+</div>
+<p>O sea: el candadito es <strong>necesario pero no suficiente</strong>. Si no tiene candadito, no entren. Si tiene candadito, igual lean la URL completa.</p>
+</section>
+<section id="cuando-el-navegador-les-avisa-que-algo-anda-mal">
+<h3>3. Cuando el navegador les avisa que algo anda mal<a class="headerlink" href="#cuando-el-navegador-les-avisa-que-algo-anda-mal" title="Link to this heading">#</a></h3>
+<p>A veces Chrome (u otro navegador) les muestra un cartel <strong>rojo o naranja</strong> con mensajes como:</p>
+<ul class="simple">
+<li><p><em>«Tu conexión no es privada»</em></p></li>
+<li><p><em>«Atención: posible sitio engañoso»</em></p></li>
+<li><p><em>«Conexión no segura»</em></p></li>
+</ul>
+<p><strong>Si aparece ese cartel: cierren la pestaña. No lo ignoren.</strong></p>
+<p>El navegador detecta cosas que ustedes no pueden ver a simple vista (certificados vencidos, sitios reportados como estafas, etc.). Confíen en el aviso.</p>
+<div class="admonition warning">
+<p class="admonition-title">Advertencia</p>
+<p>Algunos carteles tienen un botón «Avanzar de todos modos» o «Continuar a sitio». <strong>No lo toquen.</strong> No es para gente común, es para programadores que están probando algo y saben lo que hacen.</p>
+</div>
+</section>
+<section id="la-regla-de-oro-para-datos-importantes-direccion-a-mano">
+<h3>4. La regla de oro: para datos importantes, dirección a mano<a class="headerlink" href="#la-regla-de-oro-para-datos-importantes-direccion-a-mano" title="Link to this heading">#</a></h3>
+<p>Para entrar al <strong>banco</strong>, a <strong>ANSES</strong>, al <strong>mail</strong>, o a <strong>cualquier lugar donde van a meter contraseña o datos sensibles</strong>:</p>
+<ol class="arabic simple">
+<li><p><strong>No usen links</strong> que les llegan por mail, SMS o WhatsApp.</p></li>
+<li><p><strong>Escriban la dirección a mano</strong> en el navegador (<code class="docutils literal notranslate"><span class="pre">bancogalicia.com.ar</span></code>).</p></li>
+<li><p><strong>O usen un favorito</strong> que ustedes mismos hayan guardado.</p></li>
+</ol>
+<p>¿Por qué? Porque los links de mail y WhatsApp son el vehículo principal del phishing. Aunque el mensaje parezca real, si tocan el link pueden terminar en un sitio falso idéntico al verdadero.</p>
+<p><strong>Cómo guardar un favorito en Chrome</strong> (lo hacen una vez y queda):</p>
+<ol class="arabic simple">
+<li><p>Entren al sitio real (ej: <code class="docutils literal notranslate"><span class="pre">bancogalicia.com.ar</span></code>).</p></li>
+<li><p>Toquen la <strong>estrellita ⭐</strong> que está al lado de la dirección, arriba.</p></li>
+<li><p>Le ponen un nombre fácil («Banco») y guardan.</p></li>
+</ol>
+<p>A partir de ahí, abrir el banco es un toque al favorito, no escribir nada.</p>
+</section>
+<section id="quiz-rapido-cual-es-la-url-real">
+<h3>5. Quiz rápido: ¿cuál es la URL real?<a class="headerlink" href="#quiz-rapido-cual-es-la-url-real" title="Link to this heading">#</a></h3>
+<p>Practiquen. Para cada par, <strong>piensen primero</strong> cuál es el sitio oficial y cuál el falso, y después abran la respuesta.</p>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">🏦 ¿Cuál es Banco Galicia? <code class="docutils literal notranslate"><span class="pre">bancogalicia.com.ar/login</span></code> vs <code class="docutils literal notranslate"><span class="pre">galicia-seguridad.com/login</span></code></span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text"><strong>La real es <code class="docutils literal notranslate"><span class="pre">bancogalicia.com.ar</span></code></strong>.</p>
+<p class="sd-card-text"><code class="docutils literal notranslate"><span class="pre">galicia-seguridad.com</span></code> tiene el nombre del banco al principio para confundir, pero el dueño del sitio es <code class="docutils literal notranslate"><span class="pre">galicia-seguridad.com</span></code>, no el banco.</p>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">🇦🇷 ¿Cuál es ANSES? <code class="docutils literal notranslate"><span class="pre">anses.gob.ar/jubilados</span></code> vs <code class="docutils literal notranslate"><span class="pre">anses-online.info/jubilados</span></code></span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text"><strong>La real es <code class="docutils literal notranslate"><span class="pre">anses.gob.ar</span></code></strong>.</p>
+<p class="sd-card-text">Los sitios del gobierno argentino terminan en <code class="docutils literal notranslate"><span class="pre">.gob.ar</span></code>. Cualquier «anses» con otra terminación (<code class="docutils literal notranslate"><span class="pre">.com</span></code>, <code class="docutils literal notranslate"><span class="pre">.info</span></code>, <code class="docutils literal notranslate"><span class="pre">.online</span></code>) es falso.</p>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">📧 ¿Cuál es Gmail? <code class="docutils literal notranslate"><span class="pre">mail.google.com</span></code> vs <code class="docutils literal notranslate"><span class="pre">gmail-login.com</span></code></span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text"><strong>La real es <code class="docutils literal notranslate"><span class="pre">mail.google.com</span></code></strong>.</p>
+<p class="sd-card-text">Gmail vive <strong>bajo <code class="docutils literal notranslate"><span class="pre">google.com</span></code></strong>. Cualquier cosa que diga «gmail» pero no termine en <code class="docutils literal notranslate"><span class="pre">google.com</span></code> es trucho.</p>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">🛒 ¿Cuál es Mercado Libre? <code class="docutils literal notranslate"><span class="pre">mercadolibre.com.ar</span></code> vs <code class="docutils literal notranslate"><span class="pre">merca-libre.com.ar</span></code></span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text"><strong>La real es <code class="docutils literal notranslate"><span class="pre">mercadolibre.com.ar</span></code></strong> (todo junto, sin guion).</p>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">💳 ¿Cuál es Mercado Pago? <code class="docutils literal notranslate"><span class="pre">mercadopago.com.ar</span></code> vs <code class="docutils literal notranslate"><span class="pre">mercadopago-cobros.com</span></code></span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text"><strong>La real es <code class="docutils literal notranslate"><span class="pre">mercadopago.com.ar</span></code></strong>.</p>
+<p class="sd-card-text">Cualquier cosa con guiones o agregados (<code class="docutils literal notranslate"><span class="pre">-cobros</span></code>, <code class="docutils literal notranslate"><span class="pre">-seguridad</span></code>, <code class="docutils literal notranslate"><span class="pre">-pagos</span></code>) es invento.</p>
+</div>
+</details></section>
+<section id="verificacion-en-dos-pasos-2fa-el-cinturon-de-seguridad">
+<h3>6. Verificación en dos pasos (2FA): el cinturón de seguridad<a class="headerlink" href="#verificacion-en-dos-pasos-2fa-el-cinturon-de-seguridad" title="Link to this heading">#</a></h3>
+<p>La <strong>verificación en dos pasos</strong> (también llamada «2FA» o «doble factor») es como una <strong>segunda cerradura</strong> en la puerta de casa.</p>
+<blockquote>
+<div><p>Aunque alguien les robe la contraseña, no puede entrar a su cuenta porque también necesita un <strong>código que solo llega al celular de ustedes</strong>.</p>
+</div></blockquote>
+<p>Es la mejor protección que hay. Y se activa una sola vez. Si activan <strong>una sola cosa</strong> de toda esta clase, que sea esto.</p>
+<section id="activar-2fa-en-whatsapp">
+<h4>6.1 Activar 2FA en WhatsApp<a class="headerlink" href="#activar-2fa-en-whatsapp" title="Link to this heading">#</a></h4>
+<ol class="arabic simple">
+<li><p>Abren WhatsApp.</p></li>
+<li><p>Tocan los <strong>tres puntitos</strong> ⋮ arriba a la derecha → <strong>Ajustes</strong>.</p></li>
+<li><p>Tocan <strong>Cuenta</strong> → <strong>Verificación en dos pasos</strong> → <strong>Activar</strong>.</p></li>
+<li><p>Inventan un <strong>PIN de 6 dígitos</strong>. <strong>No usen</strong> fecha de nacimiento, 123456, ni números fáciles. Algo como <code class="docutils literal notranslate"><span class="pre">492817</span></code>.</p></li>
+<li><p><strong>Anótenlo en el cuadernito de contraseñas.</strong> Si lo pierden, no pueden recuperar WhatsApp fácil.</p></li>
+<li><p>Agregan un <strong>mail de respaldo</strong> (su Gmail). Si alguna vez olvidan el PIN, les llega ahí cómo recuperarlo.</p></li>
+<li><p>Confirman.</p></li>
+</ol>
+<p>A partir de ahora, si alguien intenta instalar su WhatsApp en otro celular, le va a pedir el PIN. <strong>Sin PIN, no entra.</strong> Esto protege específicamente contra la estafa del «perdí el celu» que vimos en clase 1.</p>
+</section>
+<section id="activar-2fa-en-gmail">
+<h4>6.2 Activar 2FA en Gmail<a class="headerlink" href="#activar-2fa-en-gmail" title="Link to this heading">#</a></h4>
+<ol class="arabic simple">
+<li><p>En la <strong>computadora</strong>, van a <code class="docutils literal notranslate"><span class="pre">myaccount.google.com</span></code>.</p></li>
+<li><p>En el menú de la izquierda, eligen <strong>Seguridad</strong>.</p></li>
+<li><p>Buscan <strong>Verificación en dos pasos</strong> y tocan <strong>Activar</strong>.</p></li>
+<li><p>Confirman con la contraseña de Gmail.</p></li>
+<li><p>Google les pide su <strong>número de celular</strong>. Lo escriben.</p></li>
+<li><p>Les llega un código por SMS. Lo escriben donde dice.</p></li>
+<li><p>Confirman.</p></li>
+</ol>
+<p>A partir de ahora, cuando entren a Gmail desde un dispositivo nuevo (un celular distinto, otra compu), además de la contraseña les va a pedir un código que llega al celular.</p>
+<div class="admonition tip">
+<p class="admonition-title">Truco</p>
+<p><strong>Para probar que funciona:</strong> cierren sesión de Gmail (foto arriba a la derecha → Cerrar sesión) y vuelvan a entrar. Después de la contraseña debería pedirles el código del celular.</p>
+</div>
+</section>
+</section>
+<section id="pop-ups-truchos-su-computadora-esta-infectada">
+<h3>7. Pop-ups truchos: «su computadora está infectada»<a class="headerlink" href="#pop-ups-truchos-su-computadora-esta-infectada" title="Link to this heading">#</a></h3>
+<p>A veces, navegando, aparece un cartel grande que dice algo así:</p>
+<blockquote>
+<div><p>⚠️ <strong>ATENCIÓN: SU COMPUTADORA TIENE 9 VIRUS</strong></p>
+<p>Llame YA al 0800-XXX-XXXX para limpiarla. Si no actúa ahora, sus archivos serán eliminados.</p>
+</div></blockquote>
+<p>A veces con sonido de alarma. A veces el cartel no se deja cerrar.</p>
+<p><strong>Esto es 100% estafa.</strong> Su computadora <strong>no está infectada</strong>. Es solo una página web haciendo ruido para asustarlos y que llamen.</p>
+<p><strong>Qué hacer:</strong></p>
+<ol class="arabic simple">
+<li><p>❌ <strong>NO llamar</strong> al número.</p></li>
+<li><p>❌ <strong>NO instalar</strong> nada que les diga descargar.</p></li>
+<li><p>❌ <strong>NO meter datos</strong> ni tarjeta.</p></li>
+<li><p>✅ <strong>Cerrar la pestaña</strong> (la X en la pestañita arriba). Si la X no funciona, cerrar el navegador entero.</p></li>
+<li><p>✅ Si vuelve a aparecer cuando reabren el navegador, <strong>reiniciar la computadora</strong>.</p></li>
+</ol>
+<div class="admonition important">
+<p class="admonition-title">Importante</p>
+<p><strong>Microsoft, Google, Apple y los bancos jamás llaman ni mandan pop-ups así.</strong> Si una página dice «su computadora está infectada, llame al 0800», es estafa <strong>sin excepción</strong>.</p>
+</div>
+</section>
+<section id="wifi-publico-cuando-importa">
+<h3>8. WiFi público: cuándo importa<a class="headerlink" href="#wifi-publico-cuando-importa" title="Link to this heading">#</a></h3>
+<p>El WiFi «gratis» del café, el aeropuerto, el hospital o un shopping es cómodo pero <strong>menos seguro</strong> que el de su casa.</p>
+<p>En una red pública, otras personas conectadas pueden, en teoría, espiar parte del tráfico. Para sitios normales (mirar el diario, buscar algo en Google, ver mapas) no es problema. Para datos sensibles, sí.</p>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Lo que hacen</p></th>
+<th class="head"><p>WiFi público</p></th>
+<th class="head"><p>WiFi de casa o datos móviles</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Leer el diario, buscar en Google, mapas</p></td>
+<td><p>✅ OK</p></td>
+<td><p>✅ OK</p></td>
+</tr>
+<tr class="row-odd"><td><p>Mandar mensajes por WhatsApp</p></td>
+<td><p>✅ OK</p></td>
+<td><p>✅ OK</p></td>
+</tr>
+<tr class="row-even"><td><p>Entrar al <strong>banco</strong>, hacer transferencias</p></td>
+<td><p>❌ Evitar</p></td>
+<td><p>✅ OK</p></td>
+</tr>
+<tr class="row-odd"><td><p>Comprar online con tarjeta</p></td>
+<td><p>❌ Evitar</p></td>
+<td><p>✅ OK</p></td>
+</tr>
+<tr class="row-even"><td><p>Sitios con contraseña importante</p></td>
+<td><p>⚠️ Mejor no</p></td>
+<td><p>✅ OK</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><strong>Si necesitan urgente hacer banking estando afuera de casa:</strong> desconecten el WiFi público y usen <strong>los datos móviles del celular</strong>. Lo poco que gasten vale la pena.</p>
+</section>
+</section>
+<section id="ejercicios-para-hacer-en-clase">
+<h2>Ejercicios para hacer en clase<a class="headerlink" href="#ejercicios-para-hacer-en-clase" title="Link to this heading">#</a></h2>
+<ol class="arabic simple">
+<li><p>✅ Leer 5 URLs y decir cuál es la real (lo hacemos juntos con el quiz del paso 5).</p></li>
+<li><p>✅ Buscar el candadito 🔒 en el navegador, en el sitio del banco.</p></li>
+<li><p>✅ Guardar 3 favoritos en Chrome: banco, ANSES, Gmail.</p></li>
+<li><p>✅ Activar verificación en dos pasos en <strong>WhatsApp</strong> y anotar el PIN.</p></li>
+<li><p>✅ Activar verificación en dos pasos en <strong>Gmail</strong>.</p></li>
+<li><p>✅ Cerrar sesión de Gmail y volver a entrar para comprobar que pide el código.</p></li>
+</ol>
+</section>
+<section id="tarea-para-la-semana">
+<h2>📝 Tarea para la semana<a class="headerlink" href="#tarea-para-la-semana" title="Link to this heading">#</a></h2>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> <strong>Día 1:</strong> Cada vez que toquen un link, <strong>mirar la URL primero</strong> antes de tocar. Acostumbrarse a leer.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> <strong>Día 2:</strong> Hacer una lista en Google Docs de los sitios oficiales que más usan (banco, obra social, ANSES, ARCA, servicios) con sus URLs reales escritas.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> <strong>Día 3:</strong> Guardar esos sitios como favoritos en Chrome.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> <strong>Día 4:</strong> Buscar en el mail los últimos 10 mensajes que les pidieron «verificar cuenta» y borrarlos sin tocar nada.</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> <strong>Día 5:</strong> Hacer el <a class="reference internal" href="simulacro-phishing.html"><span class="std std-doc">Simulacro de phishing</span></a> con los 8 ejemplos. Contarme cuántos acertaron.</p></li>
+</ul>
+</section>
+<section id="si-algo-sale-mal">
+<h2>Si algo sale mal<a class="headerlink" href="#si-algo-sale-mal" title="Link to this heading">#</a></h2>
+<dl class="simple myst">
+<dt><strong>«Activé la verificación en dos pasos en WhatsApp y me pide el PIN cada vez que abro la app.»</strong></dt><dd><p>WhatsApp no debería pedirlo siempre, solo cada cierto tiempo o al instalar la app en un dispositivo nuevo. Si lo pide todo el tiempo, revisen Ajustes → Cuenta → Verificación en dos pasos y verifiquen la configuración.</p>
+</dd>
+<dt><strong>«Perdí el PIN de WhatsApp.»</strong></dt><dd><p>Si pusieron mail de respaldo, sigan los pasos para recuperarlo desde ese mail. Si no pusieron mail, hay que esperar <strong>7 días</strong> para resetearlo (es una medida de seguridad de WhatsApp).</p>
+</dd>
+<dt><strong>«Entré a un sitio y no veo el candadito.»</strong></dt><dd><p>Salgan inmediatamente. No metan datos. Avisenme.</p>
+</dd>
+<dt><strong>«El navegador me muestra un cartel rojo y no entiendo qué dice.»</strong></dt><dd><p>Cierren la pestaña. Sáquenme una captura y me preguntan antes de volver a intentar.</p>
+</dd>
+<dt><strong>«Toqué un link sin querer y se abrió algo raro.»</strong></dt><dd><p>Cierren la pestaña inmediatamente. Si pueden, cierren todo el navegador. Si metieron datos en el sitio que se abrió: cambien la contraseña del servicio afectado y avisenme.</p>
+</dd>
+<dt><strong>«Me llamó alguien diciendo que era de Microsoft / del banco / de ANSES.»</strong></dt><dd><p>Cortar. Llamar al sitio oficial usando el número que figura en la tarjeta o en el sitio oficial. Microsoft, los bancos y ANSES no llaman así.</p>
+</dd>
+</dl>
+<hr class="docutils" />
+<p>➡️ <strong>Próxima página:</strong> <a class="reference internal" href="simulacro-phishing.html"><span class="std std-doc">Simulacro de phishing</span></a>, donde practican con 8 ejemplos reales todo lo que vieron en esta clase.</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="clase-5-ia.html"
+       title="página anterior">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">anterior</p>
+        <p class="prev-next-title">Clase 5: Inteligencia Artificial (IA)</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="simulacro-phishing.html"
+       title="siguiente página">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">siguiente</p>
+        <p class="prev-next-title">Simulacro: ¿es phishing?</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item"><div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contenido
+  </div>
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#para-que-les-sirve">Para qué les sirve</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#antes-de-empezar">Antes de empezar</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#paso-a-paso">Paso a paso</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#como-leer-una-direccion-de-internet-url">1. Cómo leer una dirección de internet (URL)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#el-candadito-y-la-s-de-https">2. El candadito 🔒 y la «s» de https</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cuando-el-navegador-les-avisa-que-algo-anda-mal">3. Cuando el navegador les avisa que algo anda mal</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#la-regla-de-oro-para-datos-importantes-direccion-a-mano">4. La regla de oro: para datos importantes, dirección a mano</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#quiz-rapido-cual-es-la-url-real">5. Quiz rápido: ¿cuál es la URL real?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#verificacion-en-dos-pasos-2fa-el-cinturon-de-seguridad">6. Verificación en dos pasos (2FA): el cinturón de seguridad</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#activar-2fa-en-whatsapp">6.1 Activar 2FA en WhatsApp</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#activar-2fa-en-gmail">6.2 Activar 2FA en Gmail</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pop-ups-truchos-su-computadora-esta-infectada">7. Pop-ups truchos: «su computadora está infectada»</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#wifi-publico-cuando-importa">8. WiFi público: cuándo importa</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ejercicios-para-hacer-en-clase">Ejercicios para hacer en clase</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tarea-para-la-semana">📝 Tarea para la semana</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#si-algo-sale-mal">Si algo sale mal</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+Por Daniela
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

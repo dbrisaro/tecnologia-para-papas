@@ -4,15 +4,16 @@ Este es un curso de tecnología pensado especialmente para ustedes: con calma, c
 
 ## ¿Qué vamos a aprender?
 
-En **cinco clases de una hora**, vamos a ver las cosas que más se usan en el día a día:
+En **seis clases de una hora**, vamos a ver las cosas que más se usan en el día a día:
 
 1. **WhatsApp**: para hablar con la familia, mandar notas de voz, hacer videollamadas y compartir fotos.
 2. **Google Meet**: para reuniones por video, turnos médicos online o ver a la familia que está lejos.
 3. **Google Calendar**: una agenda en el celular y la computadora que les avisa los turnos y cumpleaños.
 4. **Google Docs y Sheets**: para escribir cartas, hacer listas y llevar las cuentas.
 5. **Inteligencia Artificial (IA)**: un asistente al que le pueden preguntar cualquier cosa.
+6. **Seguridad digital**: cómo reconocer sitios verdaderos, activar candados extra y no caer en estafas.
 
-Y al final del curso hay un **simulacro de phishing**: una página para practicar a reconocer estafas digitales con ejemplos reales que circulan en Argentina.
+La clase 6 va acompañada de un **simulacro de phishing**: 8 ejemplos reales de estafas que circulan en Argentina para que practiquen a detectarlas.
 
 ## ¿Cómo está pensado?
 

@@ -155,9 +155,31 @@ Anoten acá los teléfonos que les sirvan tener a mano:
 **Cuando duden, no hagan nada. Sáquenme una foto y consúltenme primero.** Diez minutos de espera nunca arruinaron nada. Diez segundos de apuro pueden costar caro.
 ```
 
+## Bonus: permisos de apps
+
+Cuando instalan una app, les pide permisos: *"¿podés acceder a tus contactos? ¿a la cámara? ¿al micrófono? ¿a la ubicación?"*.
+
+**Regla simple:** piensen si tiene sentido para esa app.
+
+| App pide | ¿Tiene sentido? |
+|---|---|
+| Calculadora pide acceso a los contactos | ❌ No, denegar |
+| App de cámara pide la cámara | ✅ Sí, dar |
+| WhatsApp pide los contactos | ✅ Sí (los necesita para mostrar quién tiene WhatsApp) |
+| Linterna pide acceso a las fotos | ❌ No, denegar |
+| App del clima pide ubicación | ✅ Sí (para saber el clima donde están) |
+| Juego de cartas pide la libreta de contactos | ❌ No, denegar |
+
+Si dudan, **denieguen**. La app va a seguir funcionando para lo importante; solo no podrá usar la función que requería ese permiso.
+
+**Para cambiar permisos después de instalar la app:**
+
+- **Android:** Ajustes ⚙️ → Apps → [nombre de la app] → Permisos.
+- **iPhone:** Ajustes ⚙️ → Privacidad → [tipo de permiso] → ver qué apps lo tienen activo.
+
 ## Para seguir aprendiendo después del curso
 
-Cuando dominen estas 5 cosas, otras herramientas útiles para explorar más adelante:
+Cuando dominen las 6 clases, otras herramientas útiles para explorar más adelante:
 
 - **Google Maps**: cómo llegar a un lugar, ver el tiempo de viaje.
 - **Google Fotos**: guardar todas las fotos del celular en internet, así no se pierden.
