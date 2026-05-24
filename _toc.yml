@@ -1,11 +1,16 @@
 format: jb-book
 root: intro
-chapters:
-  - file: como-usar
-  - file: clase-1-whatsapp
-  - file: clase-2-meet
-  - file: clase-3-calendar
-  - file: clase-4-docs-sheets
-  - file: clase-5-ia
-  - file: simulacro-phishing
-  - file: recursos
+parts:
+  - chapters:
+      - file: como-usar
+      - file: clase-1-whatsapp
+      - file: clase-2-meet
+      - file: clase-3-calendar
+      - file: clase-4-docs-sheets
+      - file: clase-5-ia
+  - caption: Seguridad
+    chapters:
+      - file: clase-6-seguridad
+      - file: simulacro-phishing
+  - chapters:
+      - file: recursos

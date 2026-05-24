@@ -203,3 +203,7 @@ Si tocaron un link sospechoso y metieron datos, **no es el fin del mundo**. Esta
 ```{tip}
 **Anoten cada estafa que reciban**, aunque no caigan, en un documento o en una nota del celular. Sirve para que cuando vuelva a aparecer una parecida la reconozcan al instante.
 ```
+
+---
+
+➡️ Para cerrar el curso, vayan al [Machete general](recursos.md): todo lo importante en una sola página.
