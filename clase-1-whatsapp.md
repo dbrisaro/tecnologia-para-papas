@@ -36,7 +36,9 @@ Cuando abren WhatsApp, hay tres/cuatro pestañas (arriba o abajo según el celul
 - **Llamadas**: el historial de llamadas y videollamadas.
 - **Novedades** y/o **Estados**: fotos y videos que la gente sube por 24 horas. Lo dejamos para más adelante.
 
-![Barra de WhatsApp en celular android google pixel](images/chat_whatsapp_1.png)
+<p align="center">
+<img src="images/chat_whatsapp_1.png" alt="Barra de WhatsApp, celular con Android" width="400">
+</p>
 
 ### 2. Mandar una nota de voz 🎤
 
