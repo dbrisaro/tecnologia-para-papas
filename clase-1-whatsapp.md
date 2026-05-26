@@ -10,6 +10,7 @@ WhatsApp ya lo usan para chatear, pero tiene un montón de funciones que muchas 
 - **Notas de voz** cuando da fiaca escribir.
 - **Videollamadas** para ver a la persona, no solo escucharla.
 - Mandar y guardar **fotos** sin que se mezclen con todo lo demás del celular.
+- Podemos mandar también documentos (.pdf, .docx, etc) a contactos o a nosotros mismos.
 - Armar un **grupo** para coordinar con varias personas a la vez.
 - Compartir la **ubicación** cuando alguien los pasa a buscar o quieren mostrar dónde están.
 - Cómo **no caer en estafas** por WhatsApp.
@@ -30,11 +31,15 @@ Si no saben si WhatsApp está instalado, busquen en la pantalla del celular un c
 
 ### 1. Las tres pestañas principales
 
-Cuando abren WhatsApp, hay tres pestañas (arriba o abajo según el celular):
+Cuando abren WhatsApp, hay tres/cuatro pestañas (arriba o abajo según el celular):
 
 - **Chats**: las conversaciones.
 - **Llamadas**: el historial de llamadas y videollamadas.
-- **Novedades** o **Estados**: fotos y videos que la gente sube por 24 horas. Lo dejamos para más adelante.
+- **Novedades** y/o **Estados**: fotos y videos que la gente sube por 24 horas. Lo dejamos para más adelante.
+
+<p align="center">
+<img src="images/chat_whatsapp_1.png" alt="Barra de WhatsApp, celular con Android" width="400">
+</p>
 
 ### 2. Mandar una nota de voz 🎤
 
